@@ -1,0 +1,31 @@
+{
+  "name": "wrench",
+  "version": "1.0.0",
+  "description": "js工具库-扳手",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build:types": "tsc",
+    "build": "npm run build:types && rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toolkit",
+    "rollup",
+    "typescript"
+  ],
+  "author": "zayn",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.70.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
+  }
+}
