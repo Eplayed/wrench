@@ -1,6 +1,6 @@
 {
   "name": "iron-wrench",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "js工具库-扳手",
   "main": "index.js",
   "types": "index.d.ts",
